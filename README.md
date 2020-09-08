@@ -4,7 +4,9 @@ Exporter for prometheus for checking auth.logs
 ## Build and start app
 
 go get -d -v ./ 
+
 go build -o bin/main main.go
+
 bin/main
 
 ## Build and start app with Docker
